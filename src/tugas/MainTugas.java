@@ -6,7 +6,7 @@ package tugas;
 
 /**
  *
- * @author Nayla
+ * @author Nayla Syazana Aziza 2410010547
  */
 public class MainTugas {
     public static void main(String[] args) {

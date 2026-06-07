@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Nayla
+ * @author Nayla Syazana Aziza 2410010547
  */
 public class Perpustakaan {
     // ArrayList yang menampung objek bertipe Buku

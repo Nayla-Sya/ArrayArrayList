@@ -6,7 +6,7 @@ package bagian3.perpustakaan;
 
 /**
  *
- * @author Nayla
+ * @author Nayla Syazana Aziza 2410010547
  */
 public class Buku {
     // Atribut: data yang dimiliki setiap buku

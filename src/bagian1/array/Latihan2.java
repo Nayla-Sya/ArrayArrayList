@@ -1,3 +1,5 @@
+//Nayla Syazana Aziza 2410010547
+
 package bagian1.array;
 
     public class Latihan2 {

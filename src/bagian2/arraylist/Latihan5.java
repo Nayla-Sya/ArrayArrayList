@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Nayla
+ * @author Nayla Syazana Aziza 2410010547
  */
 public class Latihan5 {
     public static void main(String[] args) {
