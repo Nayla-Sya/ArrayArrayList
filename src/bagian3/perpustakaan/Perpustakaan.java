@@ -40,6 +40,38 @@ public class Perpustakaan {
  }
  System.out.println("Buku " + judul + " tidak ditemukan.");
  }
+ 
+ // Mengembalikan buku
+public void kembalikanBuku(String judul) {
+    for (Buku b : koleksi) {
+        if (b.getJudul().equals(judul)) {
+            b.setDipinjam(false);
+            System.out.println(judul + " berhasil dikembalikan.");
+            return;
+        }
+    }
+    System.out.println("Buku " + judul + " tidak ditemukan.");
+}
+
+// Mencari buku berdasarkan penulis
+public void cariPenulis(String penulis) {
+    boolean ditemukan = false;
+
+    System.out.println("Buku karya " + penulis + ":");
+
+    for (Buku b : koleksi) {
+        if (b.getPenulis().equalsIgnoreCase(penulis)) {
+            System.out.println("- " + b.info());
+            ditemukan = true;
+        }
+    }
+
+    if (!ditemukan) {
+        System.out.println("Tidak ada buku karya " + penulis);
+    }
+}
+
+
  // Menghitung jumlah buku yang masih tersedia
  public int jumlahTersedia() {
  int jumlah = 0;
